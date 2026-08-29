@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abrahan — Austin Story</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --text: #e6edf3;
+      --accent: #f59e0b;
+      --muted: #8b949e;
+      --card: #161b22;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #21262d;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 2rem 0 3rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .btn.primary {
+      background: var(--accent);
+      color: #0f1419;
+      border-color: var(--accent);
+    }
+    .btn.primary:hover {
+      background: #d97706;
+      color: #0f1419;
+    }
+    .story {
+      font-size: 1.15rem;
+    }
+    .story p {
+      margin-bottom: 1.5rem;
+    }
+    .story h2 {
+      font-size: 1.5rem;
+      color: var(--accent);
+      margin: 2.5rem 0 1rem;
+      font-weight: 600;
+    }
+    .story blockquote {
+      border-left: 3px solid var(--accent);
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+      font-style: italic;
+      color: #c9d1d9;
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Abrahan</h1>
+    <p class="subtitle">A story about moving to Austin, quitting the old life, and building a new one one habit at a time.</p>
+  </header>
+
+  <nav>
+    <a href="index.html" class="btn">Home</a>
+    <a href="story.html" class="btn primary">The Story</a>
+    <a href="https://github.com/aguayoa" class="btn">GitHub</a>
+  </nav>
+
+  <main class="story">
+    <p>I didn't plan to move to Austin. It just happened — the way good things usually do when you stop forcing them.</p>
+
+    <p>For years I was running on someone else's script. Wake up, commute, work, repeat. The days blurred together. I was tired in a way that sleep didn't fix. Something had to change, but I didn't know what.</p>
+
+    <h2>The Decision</h2>
+    <p>One night I sat down and wrote out what I actually wanted. Not what I thought I should want. Not what looked good on paper. Just the honest list. It came down to three things: more time outside, a community that felt real, and the freedom to build something of my own.</p>
+
+    <p>Austin kept showing up in that list. The trails, the music, the weird mix of people who actually do things instead of just talking about them. So I went.</p>
+
+    <h2>The First Months</h2>
+    <p>The first few weeks were disorienting. New city, new routines, no familiar anchors. I spent a lot of time walking — just walking, no destination, no podcast, no phone. It felt strange at first, almost wasteful. But something started to shift.</p>
+
+    <p>I started noticing the small things. The way the light hits the Colorado River in the afternoon. The sound of live music drifting out of a bar on a Tuesday. The fact that strangers would actually talk to you here, not just nod and keep walking.</p>
+
+    <blockquote>
+      "You don't find a new life by searching for it. You find it by showing up to the same places every day until they start to feel like yours."
+    </blockquote>
+
+    <h2>Building the Habits</h2>
+    <p>I didn't overhaul everything at once. That never works. Instead I picked one habit at a time. First it was the morning run — three miles, no excuses, even when it was ninety degrees and humid. Then it was cooking real meals instead of grabbing whatever was closest. Then it was showing up to the same soccer games and volleyball nights until the faces became familiar.</p>
+
+    <p>Each habit was small. Each one felt almost too simple to matter. But they stacked. And after a few months, I looked around and realized I wasn't the same person who'd gotten on that plane.</p>
+
+    <h2>Where I Am Now</h2>
+    <p>I'm still building. Still figuring out what this new life actually looks like day to day. But the difference is I chose this. Every morning I wake up and I get to decide what the day looks like. That's not nothing. That's everything.</p>
+
+    <p>This site is just the beginning. More stories, more experiments, more of the messy middle of figuring it out — coming soon.</p>
+  </main>
+
+  <footer>
+    <p>Built in Austin, one habit at a time. &middot; <a href="https://github.com/aguayoa">GitHub</a></p>
+  </footer>
+</body>
+</html>
